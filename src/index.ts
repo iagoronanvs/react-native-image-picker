@@ -11,18 +11,18 @@ import NativeInterface from './internal/nativeInterface';
 import {ImagePickerOptions, ImagePickerResponse} from './internal/types';
 
 const DEFAULT_OPTIONS: ImagePickerOptions = {
-  title: 'Select a Photo',
-  cancelButtonTitle: 'Cancel',
-  takePhotoButtonTitle: 'Take Photo…',
-  chooseFromLibraryButtonTitle: 'Choose from Library…',
+  title: 'Selecione uma foto',
+  cancelButtonTitle: 'Cancelar',
+  takePhotoButtonTitle: 'Tirar Foto…',
+  chooseFromLibraryButtonTitle: 'Escolher da galeria…',
   quality: 1.0,
   allowsEditing: false,
   permissionDenied: {
-    title: 'Permission denied',
+    title: 'Permissão Negada',
     text:
-      'To be able to take pictures with your camera and choose images from your library.',
-    reTryTitle: 're-try',
-    okTitle: "I'm sure",
+      'Para poder tirar fotos com sua câmera e escolher imagens da sua biblioteca.',
+    reTryTitle: 'Tente Novamente',
+    okTitle: 'Tenho Certeza',
   },
 };
 
